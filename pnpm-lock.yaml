@@ -1006,7 +1006,7 @@ importers:
       '@typescript-eslint/parser': ^5.22.0
       apollo-server-express: ^3.7.0
       body-parser: ^1.20.0
-      chalk: ^4.1.2
+      chalk: ^5.0.1
       cors: ^2.8.5
       cross-spawn: ^7.0.3
       electron: ^18.2.0
@@ -1041,7 +1041,7 @@ importers:
       '@types/react': 17.0.45
       apollo-server-express: 3.7.0_ohhcy65vavujazdrg547ul2pme
       body-parser: 1.20.0
-      chalk: 4.1.2
+      chalk: 5.0.1
       cors: 2.8.5
       cross-spawn: 7.0.3
       electron: 18.2.0
@@ -10479,6 +10479,12 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
+    dev: true
+
+  /chalk/5.0.1:
+    resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: false
 
   /char-regex/1.0.2:
     resolution: {integrity: sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==}
