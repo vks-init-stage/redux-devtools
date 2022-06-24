@@ -183,6 +183,23 @@ postMerge :
         configFile : "./jest.config.js"  
         
       
+      - name: redux-devtools   
+        path : "./packages/redux-devtools"
+        pattern: 
+          - "./test/persistState.spec.ts"
+
+
+        framework : jest
+        preRun:
+          command:
+            - npm i
+            - npm run build
+
+        postRun:
+            command:
+              - node --version 
+        configFile : "./jest.config.js"   
+      
  
         
       
