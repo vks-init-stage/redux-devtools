@@ -2,6 +2,7 @@ import { map2tree, Node } from '../src';
 import * as immutable from 'immutable';
 
 test('# rootNodeKey', () => {
+  
   const map = {};
   const options = { key: 'foo' };
 
