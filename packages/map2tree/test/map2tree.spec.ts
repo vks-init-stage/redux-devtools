@@ -9,6 +9,7 @@ test('# rootNodeKey', () => {
   expect((map2tree(map, options) as Node).name).toBe('foo');
 });
 
+
 describe('# shallow map', () => {
   test('## null', () => {
     const map = {
