@@ -1,14 +1,12 @@
 import { map2tree, Node } from '../src';
 import * as immutable from 'immutable';
 
-test('# rootNodeKey', () => {
-  
+test('# rootNodeKey', () => { 
   const map = {};
   const options = { key: 'foo' };
 
   expect((map2tree(map, options) as Node).name).toBe('foo');
 });
-
 
 describe('# shallow map', () => {
   test('## null', () => {
